@@ -23,5 +23,4 @@ public class FunctionalInterfaceExample {
 		System.out.println("thred is running");
 	};
 	
-	
 }
