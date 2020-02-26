@@ -16,6 +16,36 @@ public class AnnonusClass1 {
 			}
 		};
 		emp1.getAge();
+		// if you are creating annonums so you have to 
+		// implement all the methods
+		StudentS s = new StudentS() {
+			
+			@Override
+			public void getName() {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void getId() {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public String sumNumber(int a, int b) {
+				return a+b+"";
+			}
+			@Override
+			public void defaultCheck() {
+				System.out.println("override output");
+			}
+			
+			
+		};
+		System.out.println(""+s.sumNumber(10, 20));
+		s.defaultCheck();
+		StudentS.ceheckStatic(); // we cant call using by onject name
 	}
 }
 

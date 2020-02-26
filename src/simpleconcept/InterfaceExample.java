@@ -13,7 +13,15 @@ interface User1
 	}
 	void sample();
 }
+
 interface User2
+{
+	default void pancardNumber() {
+		System.out.println("in user1");
+	}
+	void sample();
+}
+interface SumValue
 {
 	default void pancardNumber() {
 		System.out.println("in user2");
@@ -24,9 +32,10 @@ interface User2
 class AllUser implements User1,User2{
 
 	
+	
 	 @Override public void pancardNumber() {
 	 System.out.println("which user method is calling"); }
-
+	 
 	@Override
 	public void sample() {
 		// TODO Auto-generated method stub
