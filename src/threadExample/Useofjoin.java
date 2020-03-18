@@ -21,7 +21,9 @@ public class Useofjoin {
 		ajoin2.setName("Mahesh");
 		
 		ajoin.start();
-		ajoin.join(1);// dont care about the sleep always e
+		//here thread will get con
+		
+		ajoin.join(1);
 		
 		ajoin2.start();
 		

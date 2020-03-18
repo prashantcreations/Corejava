@@ -1,5 +1,9 @@
 package simpleconcept;
-
+/*
+ * 1) class and data member should be final
+ * 2) 
+ * 
+ * */
 
 final class LikeString{
 	
